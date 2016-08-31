@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.require_paths << "lib"
   spec.author = "Jordan Sissel"
   spec.email = "jls@semicomplete.com"
-  spec.homepage = "https://github.com/jordansissel/O_o"
+  spec.homepage = "https://github.com/jordansissel/ruby-O_o"
 end
 
