@@ -1,15 +1,12 @@
 Gem::Specification.new do |spec|
+  files = []
   dirs = %w{lib bin templates}
   dirs.each do |dir|
     files += Dir["#{dir}/**/*"]
   end
 
-  files << "LICENSE"
-  files << "CONTRIBUTORS"
-  files << "CHANGELIST"
-
   spec.name = "O_o"
-  spec.version = "0.0.1"
+  spec.version = "1.0.1"
   spec.summary = "O_o"
   spec.description = "! O_o !"
 
